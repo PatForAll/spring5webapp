@@ -3,6 +3,10 @@ package guru.springframework.spring5webapp.domain;
 import javax.persistence.*;
 import java.util.Set;
 
+/*
+Here is another useless comment
+ */
+
 @Entity
 public class Author {
 
