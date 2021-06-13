@@ -3,6 +3,10 @@ package guru.springframework.spring5webapp.domain;
 import javax.persistence.*;
 import java.util.Set;
 
+/*
+This is some useless comment
+*/
+
 @Entity
 public class Book {
 
@@ -61,6 +65,7 @@ public class Book {
     @Override
     public String toString() {
         return "Book{" +
+
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
